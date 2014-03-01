@@ -1,5 +1,5 @@
 Block.defineBlock (77,"Stone Button",[["stone",0]],50,false,7)
-Block.setShape (77,0.45,0.35,0,0.55,0.65,1)
+Block.setShape (77,0.40,0.35,0,0.55,0.60,1)
 Block.setRenderLayer (77,1)
 
 function useItem (x,y,z,b,i,side)
