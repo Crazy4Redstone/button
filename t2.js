@@ -20,6 +20,14 @@ function useItem (x,y,z,itemId,blockId,side)
   {
     preventDefault()
   }
+  if (itemId == 77 && side == 2)
+  {
+    setTile (x,y,z-1,102)
+  }
+  if (itemId == 77 && side == 3)
+  {
+    setTile (x,y,z+1,101)
+  }
   if (itemId == 77 && side == 4)
   {
     setTile (x-1,y,z,100)
