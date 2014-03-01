@@ -8,7 +8,7 @@ Block.setRenderLayer (100,1)
 
 function useItem (x,y,z,itemId,blockId,side)
 {
-  if (itemId == 77 && side == 2)
+  if (itemId == 77 && side == 4)
   {
     setTile (x-5,y,z,77)
   }
