@@ -4,9 +4,9 @@ Block.setRenderLayer (77,1)
 
 function useItem (x,y,z,b,i,side)
 {
-  if (b !==0 && i == 77 && side == 1)
+  if (b !==0 && i == 77 && side == 3)
   {
-    setTile (x,y+1,z,77)
+    setTile (x-5,y,z,77)
   }
 }
 
