@@ -12,12 +12,10 @@ function useItem (x,y,z,itemId,blockId,side)
   {
     setTile (x+1,y,z,77)
   }
-
-
-
-
-
-
+  if (itemId == 77 && side == 4)
+  {
+    setTile (x-1,y,z,100)
+  }
 }
 
 function procCmd (c) {
