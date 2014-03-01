@@ -10,6 +10,10 @@ Block.defineBlock (101,"Stone Button",[["stone",0]],50,false,7)
 Block.setShape (101,0.31,0.38,0,0.69,0.62,0.12)
 Block.setRenderLayer (101,2)
 
+Block.defineBlock (102,"Stone Button",[["stone",0]],50,false,7)
+Block.setShape (102,0.31,0.38,0.88,0.69,0.62,0)
+Block.setRenderLayer (102,2)
+
 function useItem (x,y,z,itemId,blockId,side)
 {
   if (itemId == 77 && side == 1)
