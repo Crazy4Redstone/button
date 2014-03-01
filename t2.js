@@ -14,7 +14,7 @@ function useItem (x,y,z,itemId,blockId,side)
 {
   if (itemId == 77 && side == 1)
   {
-    preventDefault
+    preventDefault()
   }
   if (itemId == 77 && side == 5)
   {
