@@ -6,8 +6,16 @@ Block.defineBlock (100,"Stone Button",[["stone",0]],50,false,7)
 Block.setShape (100,0.88,0.38,0.31,1,0.62,0.69)
 Block.setRenderLayer (100,2)
 
+Block.defineBlock (100,"Stone Button",[["stone",0]],50,false,7)
+Block.setShape (101,0.88,0.38,0.31,1,0.62,0.69)
+Block.setRenderLayer (100,2)
+
 function useItem (x,y,z,itemId,blockId,side)
 {
+  if (itemId == 77 && side == 1)
+  {
+    preventDefault
+  }
   if (itemId == 77 && side == 5)
   {
     setTile (x+1,y,z,77)
