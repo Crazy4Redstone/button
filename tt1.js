@@ -27,16 +27,16 @@ Block.setShape (77,0,0.38,0.31,0.12,0.62,0.69)
 Block.setRenderLayer (77,1)
 
 Block.defineBlock (90,"Stone Button",[["stone",0]],50,false,7)
-Block.setShape (100,0.88,0.38,0.31,1,0.62,0.69)
-Block.setRenderLayer (100,2)
+Block.setShape (90,0.88,0.38,0.31,1,0.62,0.69)
+Block.setRenderLayer (90,2)
 
 Block.defineBlock (93,"Stone Button",[["stone",0]],50,false,7)
-Block.setShape (101,0.31,0.38,0,0.69,0.62,0.12)
-Block.setRenderLayer (101,2)
+Block.setShape (93,0.31,0.38,0,0.69,0.62,0.12)
+Block.setRenderLayer (93,2)
 
 Block.defineBlock (94,"Stone Button",[["stone",0]],50,false,7)
-Block.setShape (102,0.31,0.38,0.88,0.69,0.62,1)
-Block.setRenderLayer (102,2)
+Block.setShape (94,0.31,0.38,0.88,0.69,0.62,1)
+Block.setRenderLayer (94,2)
 
 // Functions:
 
