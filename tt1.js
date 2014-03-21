@@ -78,13 +78,13 @@ function useItem (x,y,z,itemId,blockId,side)
   }
   if (blockId == 90 && D == 0)
   {
-    setTile (x,y,z,100,1)
+    setTile (x,y,z,90,1)
     TestDust (x-1,y,z,true)
     TestDust (x+1,y,z,true)
     TestDust (x,y,z-1,true)
     TestDust (x,y,z+1,true)
     TestDust (x,y-2,z,true)
-    setTile (x,y,z,100,0)
+    setTile (x,y,z,90,0)
     TestDust (x-1,y,z,false)
     TestDust (x+1,y,z,false)
     TestDust (x,y,z-1,false)
@@ -93,13 +93,13 @@ function useItem (x,y,z,itemId,blockId,side)
   }
   if (blockId == 93 && D == 0)
   {
-    setTile (x,y,z,101,1)
+    setTile (x,y,z,93,1)
     TestDust (x-1,y,z,true)
     TestDust (x+1,y,z,true)
     TestDust (x,y,z-1,true)
     TestDust (x,y,z+1,true)
     TestDust (x,y-2,z,true)
-    setTile (x,y,z,101,0)
+    setTile (x,y,z,93,0)
     TestDust (x-1,y,z,false)
     TestDust (x+1,y,z,false)
     TestDust (x,y,z-1,false)
@@ -108,13 +108,13 @@ function useItem (x,y,z,itemId,blockId,side)
   }
   if (blockId == 94 && D == 0)
   {
-    setTile (x,y,z,102,1)
+    setTile (x,y,z,94,1)
     TestDust (x-1,y,z,true)
     TestDust (x+1,y,z,true)
     TestDust (x,y,z-1,true)
     TestDust (x,y,z+1,true)
     TestDust (x,y-2,z,true)
-    setTile (x,y,z,102,0)
+    setTile (x,y,z,94,0)
     TestDust (x-1,y,z,false)
     TestDust (x+1,y,z,false)
     TestDust (x,y,z-1,false)
@@ -123,7 +123,7 @@ function useItem (x,y,z,itemId,blockId,side)
   }
   if (itemId == 77 && side == 1)
   {
-    setTile (x,y,z,0)
+    setTile (x,y+1,z,0)
   }
   if (itemId == 77 && side == 2)
   {
@@ -143,7 +143,7 @@ function useItem (x,y,z,itemId,blockId,side)
   }
   if (itemId == 77 && side == 6)
   {
-    setTile (x,y,z,0)
+    setTile (x,y-1,z,0)
   }
 }
 function TestDust (x,y,z,mode)
