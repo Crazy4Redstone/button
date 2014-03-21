@@ -124,6 +124,7 @@ function useItem (x,y,z,itemId,blockId,side)
   if (itemId == 77 && side == 1)
   {
     setTile (x,y+1,z,0)
+    preventDefault ()
   }
   if (itemId == 77 && side == 2)
   {
@@ -144,6 +145,7 @@ function useItem (x,y,z,itemId,blockId,side)
   if (itemId == 77 && side == 6)
   {
     setTile (x,y-1,z,0)
+    preventDefault ()
   }
 }
 function TestDust (x,y,z,mode)
